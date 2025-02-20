@@ -133,3 +133,5 @@ dmypy.json
 notebook/
 .DS_Store
 *.swp
+
+my_notes.md
