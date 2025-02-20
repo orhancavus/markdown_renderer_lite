@@ -24,8 +24,20 @@ cd markdown_renderer_lite
 pip install -e .
 ```
 
+or
+
+```sh
+pip install markdown-renderer-lite
+```
+
 ### Usage
 
 ```sh
 echo "# Hello World" | markdown_renderer_lite > output.html
+```
+
+or create bash script to view the markdown file directly in Safari
+
+```sh
+% markdown_html_view README.md
 ```
