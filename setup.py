@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="markdown-renderer-lite",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=["markdown"],
     entry_points={
@@ -16,7 +16,7 @@ setup(
     include_package_data=True,
     package_data={"markdown_renderer_lite": ["static/*.css"]},
     author="Orhan Cavus",
-    author_email="orhancv@example.com",
+    author_email="orhancv@gmail.com",
     description="A lightweight Markdown to HTML converter with syntax highlighting.",
     long_description=long_description,
     long_description_content_type="text/markdown",
