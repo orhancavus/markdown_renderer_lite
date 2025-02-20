@@ -1,21 +1,26 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
-    name="markdown_renderer",
-    version="0.1",
+    name="markdown-renderer-lite",
+    version="0.1.1",
     packages=find_packages(),
     install_requires=["markdown"],
     entry_points={
         "console_scripts": [
-            "markdown_renderer=markdown_renderer.converter:convert_markdown"
+            "markdown_renderer_lite=markdown_renderer_lite.converter:convert_markdown"
         ],
     },
     include_package_data=True,
-    package_data={"markdown_renderer": ["static/*.css"]},
+    package_data={"markdown_renderer_lite": ["static/*.css"]},
     author="Orhan Cavus",
     author_email="orhancv@example.com",
-    description="A simple Markdown to HTML converter with syntax highlighting.",
-    url="https://github.com/orhancavus/markdown_renderer",
+    description="A lightweight Markdown to HTML converter with syntax highlighting.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/orhancavus/markdown_renderer_lite",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

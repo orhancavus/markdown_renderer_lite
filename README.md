@@ -3,7 +3,7 @@
 Author : Orhan Cavus  
 Date   : 20.02.2025  
 
-`markdown_renderer` is a simple command-line tool that converts Markdown into HTML with syntax highlighting.
+`markdown_renderer_lite` is a simple command-line tool that converts Markdown into HTML with syntax highlighting.
 
 ## Features
 
@@ -19,13 +19,13 @@ Date   : 20.02.2025
 Clone the repository and install the package:
 
 ```sh
-git clone https://github.com/yourusername/markdown_renderer.git
-cd markdown_renderer
+git clone https://github.com/yourusername/markdown_renderer_lite.git
+cd markdown_renderer_lite
 pip install -e .
 ```
 
 ### Usage
 
 ```sh
-echo "# Hello World" | markdown_renderer > output.html
+echo "# Hello World" | markdown_renderer_lite > output.html
 ```
