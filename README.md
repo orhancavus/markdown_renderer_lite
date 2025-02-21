@@ -41,3 +41,7 @@ or create bash script to view the markdown file directly in Safari
 ```sh
 % markdown_html_view README.md
 ```
+
+```sh
+python -m markdown_renderer_lite README.md
+```
